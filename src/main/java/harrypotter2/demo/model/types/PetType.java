@@ -1,4 +1,8 @@
 package harrypotter2.demo.model.types;
 
-public class PetType {
+public enum PetType {
+    CAT,
+    RAT,
+    OWL,
+    NONE
 }
