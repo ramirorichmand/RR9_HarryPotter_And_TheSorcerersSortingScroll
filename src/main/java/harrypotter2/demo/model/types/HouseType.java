@@ -1,4 +1,8 @@
 package harrypotter2.demo.model.types;
 
-public class HouseType {
+public enum HouseType {
+    GRYFFINDOR,
+    HUFFLEPUFF,
+    RAVENCLAW,
+    SLYTHERIN
 }
