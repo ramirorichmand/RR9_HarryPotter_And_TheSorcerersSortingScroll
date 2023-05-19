@@ -28,27 +28,6 @@ To get started with this project, you will need to have the following tools inst
 ## API Endpoints 🤖
 The following API endpoints are available in the application:
 
-- GET /rooms: A list of all rooms is returned.
-- POST /rooms: A new room can be added.
-- GET /rooms/{roomId}: The room with the specified ID is returned.
-- DELETE /rooms/{roomID}: The room with the specified ID is deleted.
-- PUT /rooms/{roomId}: The room with the specified ID is updated.
-- GET /rooms/available: A list of all available rooms is returned.
-- GET /rooms/rat-owners: A list of rooms, residents of which have no cats or owls, is returned.
-
-[//]: # (above and below commented out)
-
-| HTTP Method | Endpoint            | Description                                              |
-|-------------|---------------------|----------------------------------------------------------|
-| POST        | /rooms              | Add a new room.                                          |
-| GET         | /rooms              | Retrieve a list of all rooms.                            |
-| GET         | /rooms/{roomId}     | Retrieve a specific room by its ID.                       |
-| PUT         | /rooms/{roomId}     | Update a specific room by its ID.                         |
-| DELETE      | /rooms/{roomId}     | Delete a specific room by its ID.                         |
-| GET         | /rooms/available    | Retrieve a list of all available rooms.                   |
-| GET         | /rooms/rat-owners   | Retrieve a list of rooms with residents having no cats or owls. |
-
-
 | HTTP Method                                        | Endpoint            | Description                                              |
 |----------------------------------------------------|---------------------|----------------------------------------------------------|
 | ![badge](https://img.shields.io/badge/POST-yellow) | `/rooms`              | Add a new room.                                          |
@@ -72,3 +51,41 @@ Thank you again for your support! 🙏
 
 <a href="https://www.buymeacoffee.com/ramiro.richmand"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;"  target="_blank"></a>
 
+[//]: # (Extra Stuff)
+
+
+[//]: # (- GET /rooms: A list of all rooms is returned.)
+
+[//]: # (- POST /rooms: A new room can be added.)
+
+[//]: # (- GET /rooms/{roomId}: The room with the specified ID is returned.)
+
+[//]: # (- DELETE /rooms/{roomID}: The room with the specified ID is deleted.)
+
+[//]: # (- PUT /rooms/{roomId}: The room with the specified ID is updated.)
+
+[//]: # (- GET /rooms/available: A list of all available rooms is returned.)
+
+[//]: # (- GET /rooms/rat-owners: A list of rooms, residents of which have no cats or owls, is returned.)
+
+[//]: # (above and below commented out)
+[//]: # ()
+[//]: # (| HTTP Method | Endpoint            | Description                                              |)
+
+[//]: # (|-------------|---------------------|----------------------------------------------------------|)
+
+[//]: # (| POST        | /rooms              | Add a new room.                                          |)
+
+[//]: # (| GET         | /rooms              | Retrieve a list of all rooms.                            |)
+
+[//]: # (| GET         | /rooms/{roomId}     | Retrieve a specific room by its ID.                       |)
+
+[//]: # (| PUT         | /rooms/{roomId}     | Update a specific room by its ID.                         |)
+
+[//]: # (| DELETE      | /rooms/{roomId}     | Delete a specific room by its ID.                         |)
+
+[//]: # (| GET         | /rooms/available    | Retrieve a list of all available rooms.                   |)
+
+[//]: # (| GET         | /rooms/rat-owners   | Retrieve a list of rooms with residents having no cats or owls. |)
+
+[//]: # ()
