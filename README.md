@@ -1,6 +1,6 @@
 # 14/05/23 RR9 Harry Potter and the Sorcerer's Sorting Scroll 🧙‍📜🔮 <!-- _Digital Defence Against the Dark Arts_  🧙‍📜🔮 -->
 
-![HogwartsWizard.webp](..%2F..%2F..%2F..%2FDownloads%2FHogwartsWizard.webp)
+<img src ="./HogwartsWizard.webp" alt="Hogwarts Banner" width="100%"/>
 
 What if I told you that magic is real? What if I told you that wizards, witches, and everything from the world of Harry Potter is real, and they need us now?
 
@@ -65,9 +65,7 @@ The following API endpoints are available in the application:
 
 If you've liked or found this project helpful, please consider giving it a star 🌟 and supporting me on my journey to improve my programming skills and chase my aspirations. I'd love to hear your feedback on this project, so feel free to leave your thoughts and suggestions.
 
-Every contribution counts and is deeply appreciated as I pursue a path of lifelong learning and aim to share meaningful content for the  Technomancers at The Ministry of Magic, the Arthur Weasleys of the world who have long dreamed of combining muggle technology with magic and the mischievous Weasley twins would likely see endless opportunities for pranks.
-
-the technomancers at The Ministry of Magic, the Arthur Weasley's of the world who have long dreamed of combining muggle technology with magic and the mischievous Weasley twins would likely see endless opportunities for pranks and inventions by combining Muggle technology with their magical expertise)
+Every contribution counts and is deeply appreciated as I pursue a path of lifelong learning and aim to share meaningful content for the  Technomancers at The Ministry of Magic, the Arthur Weasleys of the world who have long dreamed of combining muggle technology with magic and the mischievous Weasley twins would likely see endless opportunities for pranks 🪄
 
 [//]: # (The ministry of magic technomancers, Arthur Weasley's of the world who have long dreamed of combining muggle technology with magic. mischievous Weasley twins would likely see endless opportunities for pranks and inventions by combining Muggle technology with their magical expertise)
 Thank you again for your support! 🙏
