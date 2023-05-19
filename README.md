@@ -1,6 +1,6 @@
 # 14/05/23 RR9 Harry Potter and the Sorcerer's Sorting Scroll 🧙‍📜🔮 <!-- _Digital Defence Against the Dark Arts_  🧙‍📜🔮 -->
 
-<img src ="./HogwartsWizard.webp" alt="Hogwarts Banner" width="100%"/>
+<img src ="./HarryPotterHogwartsBanner.png" alt="Hogwarts Banner" width="100%"/>
 
 What if I told you that magic is real? What if I told you that wizards, witches, and everything from the world of Harry Potter is real, and they need us now?
 
