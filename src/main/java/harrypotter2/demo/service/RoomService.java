@@ -17,3 +17,16 @@ import java.util.Set;
 
 public class RoomService {
 }
+    private final RoomRepository roomRepository;
+
+    private final StudentRepository studentRepository;
+
+    public RoomService(RoomRepository roomRepository, StudentRepository studentRepository) {
+        this.roomRepository = roomRepository;
+        this.studentRepository = studentRepository;
+    }
+
+    public Room createNewEmptyRoom() {
+        return new Room(HouseType.GRYFFINDOR, null);
+    }
+
