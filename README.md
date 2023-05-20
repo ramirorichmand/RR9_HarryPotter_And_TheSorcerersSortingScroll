@@ -44,7 +44,7 @@ The following API endpoints are available in the application:
 
 If you've liked or found this project helpful, please consider giving it a star 🌟 and supporting me on my journey to improve my programming skills and chase my aspirations. I'd love to hear your feedback on this project, so feel free to leave your thoughts and suggestions.
 
-Every contribution counts and is deeply appreciated as I pursue a path of lifelong learning and aim to share meaningful content for the  Technomancers at The Ministry of Magic, the Arthur Weasleys of the world who have long dreamed of combining muggle technology with magic and the mischievous Weasley twins would likely see endless opportunities for pranks 🪄
+Every contribution counts and is deeply appreciated as I pursue a path of lifelong learning and aim to share meaningful content for the <b>  Technomancers at The Ministry of Magic, the Arthur Weasleys of the world who have long dreamed of combining muggle technology with magic and the mischievous Weasley twins who would likely see endless opportunities for pranks </b> 🪄
 
 [//]: # (The ministry of magic technomancers, Arthur Weasley's of the world who have long dreamed of combining muggle technology with magic. mischievous Weasley twins would likely see endless opportunities for pranks and inventions by combining Muggle technology with their magical expertise)
 Thank you again for your support! 🙏
