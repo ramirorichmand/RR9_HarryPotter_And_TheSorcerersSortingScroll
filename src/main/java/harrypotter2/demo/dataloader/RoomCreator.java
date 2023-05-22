@@ -14,6 +14,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 
 import java.util.Set;
+import java.util.Arrays;
 
 @Configuration
 public class RoomCreator {
@@ -25,20 +26,34 @@ public class RoomCreator {
             Student dracoMalfoy = new Student("Draco Malfoy", PetType.CAT);
             Student harryPotter = new Student("Harry Potter", PetType.NONE);
             Student nevilleLongbottom = new Student("Neville Longbottom", PetType.RAT);
-            studentRepository.save(hermioneGranger);
-            studentRepository.save(dracoMalfoy);
-            studentRepository.save(harryPotter);
-            studentRepository.save(nevilleLongbottom);
+            Student ronWeasley = new Student("Ron Weasley", PetType.OWL);
+            Student lunaLovegood = new Student("Luna Lovegood", PetType.NONE);
+            Student ginnyWeasley = new Student("Ginny Weasley", PetType.CAT);
+            Student fredWeasley = new Student("Fred Weasley", PetType.OWL);
+            Student georgeWeasley = new Student("George Weasley", PetType.CAT);
+            Student choChang = new Student("Cho Chang", PetType.NONE);
+            Student cedricDiggory = new Student("Cedric Diggory", PetType.RAT);
+            Student seamusFinnigan = new Student("Seamus Finnigan", PetType.OWL);
+            Student lavenderBrown = new Student("Lavender Brown", PetType.CAT);
+            Student deanThomas = new Student("Dean Thomas", PetType.NONE);
+            Student padmaPatil = new Student("Padma Patil", PetType.RAT);
+            Student parvatiPatil = new Student("Parvati Patil", PetType.OWL);
 
-            Room room1 = new Room(HouseType.GRYFFINDOR, Set.of(hermioneGranger));
-            Room room2 = new Room(HouseType.HUFFLEPUFF, Set.of(harryPotter));
-            Room room3 = new Room(HouseType.RAVENCLAW, Set.of(nevilleLongbottom));
+
+            studentRepository.saveAll(Arrays.asList(
+                    hermioneGranger, dracoMalfoy, harryPotter, nevilleLongbottom,
+                    ronWeasley, lunaLovegood, ginnyWeasley, fredWeasley, georgeWeasley,
+                    choChang, cedricDiggory, seamusFinnigan, lavenderBrown, deanThomas,
+                    padmaPatil, parvatiPatil
+            ));
+            
+            Room room1 = new Room(HouseType.GRYFFINDOR, Set.of(hermioneGranger, harryPotter, nevilleLongbottom, ronWeasley, fredWeasley, georgeWeasley, lavenderBrown, deanThomas, seamusFinnigan));
+            Room room2 = new Room(HouseType.HUFFLEPUFF, Set.of(cedricDiggory, ginnyWeasley));
+            Room room3 = new Room(HouseType.RAVENCLAW, Set.of(lunaLovegood, choChang, padmaPatil, parvatiPatil));
             Room room4 = new Room(HouseType.SLYTHERIN, Set.of(dracoMalfoy));
 
-            roomRepository.save(room1);
-            roomRepository.save(room2);
-            roomRepository.save(room3);
-            roomRepository.save(room4);
+            roomRepository.saveAll(Arrays.asList(room1, room2, room3, room4));
+
         };
     }
 
