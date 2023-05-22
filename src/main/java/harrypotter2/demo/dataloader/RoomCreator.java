@@ -46,7 +46,7 @@ public class RoomCreator {
                     choChang, cedricDiggory, seamusFinnigan, lavenderBrown, deanThomas,
                     padmaPatil, parvatiPatil
             ));
-            
+
             Room room1 = new Room(HouseType.GRYFFINDOR, Set.of(hermioneGranger, harryPotter, nevilleLongbottom, ronWeasley, fredWeasley, georgeWeasley, lavenderBrown, deanThomas, seamusFinnigan));
             Room room2 = new Room(HouseType.HUFFLEPUFF, Set.of(cedricDiggory, ginnyWeasley));
             Room room3 = new Room(HouseType.RAVENCLAW, Set.of(lunaLovegood, choChang, padmaPatil, parvatiPatil));

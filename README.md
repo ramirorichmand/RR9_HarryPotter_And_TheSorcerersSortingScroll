@@ -12,18 +12,20 @@ Let the techno... ahem, magic, begin!
 
 This is a Spring Boot application for managing information about Hogwarts in the Wizarding World. The application uses Spring APIs, JPA Repository, and PostgreSQL database.
 
+<!-- 
+
 ## Getting Started 🧑‍💻
 To get started with this project, you will need to have the following tools installed on your local machine:
 
 - Java 11 or higher
 - Apache Maven
-- PostgreSQL database
+- PostgreSQL database -->
 
 ## Technologies Used 🧑‍💻
-- **Spring Boot**
-- **Spring APIs**
-- **JPA Repository**
-- **PostgreSQL database**
+- Spring Boot
+- Spring APIs
+- JPA Repository
+- PostgreSQL database
 
 ## API Endpoints 🤖
 The following API endpoints are available in the application:
